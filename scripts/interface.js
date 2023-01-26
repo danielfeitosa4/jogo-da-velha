@@ -28,3 +28,9 @@ function updateSquares(position) {
   let symbol = board[position]
   square.innerHTML = `<div class='${symbol}'></div>`
 }
+
+function restartGame() {
+
+  window.location.reload()
+
+}
